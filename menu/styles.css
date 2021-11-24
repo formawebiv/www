@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../menu/img/pexels-pineapple-supply-co-139259.jpg);
+    font-size: 40px;
+    overflow: hidden;
+}
+.icono{
+    font-size: 100px;
+    position: relative;
+    right: -70px;
+    top: 30px;
+    opacity: 1;
+}
+.explore{
+    position: relative;
+    right: -800px;
+    top: 300px;
+    
+}
+.lista-menu, li{
+    display:flex;
+    margin-left: 30px;
+    position: relative;
+    top: -70px;
+    right: -200px;
+    opacity: 0;
+}
+
+
+.bottom-nav>i{
+    position: relative;
+    right: -450px;
+    top: 140px;
+    margin-left: 80px;
+    font-size: 150px;
+    opacity: 0;
+   
+}
+
+.hamburguer-menu{
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.line{
+    width: inherit;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    transform-origin: right;
+    transition: transform .5s;
+   
+}
+
+.line-2{
+    height: 3px;
+}
+.change .line-1{
+    transform: rotateZ(-45deg);
+
+}
+.change .line-2{
+    transform: translate(5px, 20px);
+
+}
+.change .line-3{
+    transform: rotateZ(45deg);
+
+}
+
+.change ~ .bottom-nav>i{
+    transition: 3s;
+    opacity: 1;
+  }
+
+.change .icono{
+    transition: 3s;
+    opacity: 1;
+  }
+
+.change ~ .top-nav{ 
+    transition: 3s;
+    opacity: 1;
+ }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myButton {
+	background-color:#6cb37f;
+	border-radius:28px;
+	border:1px solid #8fdd98;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:40px;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    transform: rotateX(360deg) rotateZ(10deg) rotateY(10deg);
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+.myButton:hover {
+	background-color:#0512c277;
+    transition: 3s;
+    transform: rotateX(300deg) rotateZ(260deg)  rotateY(90deg);
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
