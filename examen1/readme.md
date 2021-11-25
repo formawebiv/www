@@ -9,3 +9,8 @@ Mediante Js creamos un header y un footer que va a ser el mismo en todas las sec
 Añadimos los elementos del main (titulo y div (con galeria de imagenes) 
 
 Preparamos los elementos de la pagina con CSS para que sea responsiva y accesible según lo necesitemos.
+
+<img src="https://user-images.githubusercontent.com/89069622/143440977-2c64011a-4677-4695-b255-89df52f5e672.png"/>
+
+<img src="https://user-images.githubusercontent.com/89069622/143441180-de5e03b6-b0cf-41bb-8c1d-288da03d0894.png"/>
+
