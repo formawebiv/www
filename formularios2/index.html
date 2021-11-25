@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../formularios2/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <form>
+        <h2>Enter your support query</h2> 
+        <ul>
+          <li>
+            <label for="uname">User name:</label>
+            <input type="text" name="uname" id="uname" required minlength="5" maxlength="20" pattern="" >
+          </li>
+          <li>
+            <label for="email">Email address:</label>
+            <input type="text" name="email" id="email" required minlength="3" maxlength="15">
+          </li>
+          <li>
+            <label for="phone">Phone number:</label>
+            <input type="text" name="phone" id="phone" required minlength="3">
+          </li>
+          <li>
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment" required minlength="3" maxlength="200">
+            </textarea>
+          </li>
+          <li>
+            <button>Submit comment</button>
+          </li>
+        </ul>
+      </form>
+
+      <form>
+        <label for="mail">Me gustaría que me proporcionara una dirección de correo electrónico:<label>
+        <input type="email" id="mail" name="mail">
+        <button>Enviar</button>
+      </form>
+    
+      <script src="../formularios2/script.js"></script>
+
+</body>
+</html>
