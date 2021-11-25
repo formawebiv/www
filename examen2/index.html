@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../examen2/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../examen2/header.js"></script>
+    <script src="../examen2/footer.js"></script>
+</head>
+
+<body>
+  <header-component></header-component>
+  <main>
+  <form novalidate>
+    <fieldset>
+      <legend>Formulario 1</legend>
+      <ul>
+        <li>
+          <label for="uname">User name:</label>
+          <input type="text" name="uname" id="uname" required minlength="5" maxlength="20" pattern="">
+        </li>
+        <li>
+          <label for="email">Email address:</label>
+          <input type="text" name="email" id="email" required minlength="3" maxlength="15">
+        </li>
+        <li>
+          <label for="phone">Phone number:</label>
+          <input type="text" name="phone" id="phone" required minlength="3">
+        </li>
+        <li>
+          <label for="comment">Comment:</label>
+          <textarea name="comment" id="comment" required minlength="3" maxlength="200">
+                </textarea>
+        </li>
+        <li>
+          <button>Submit comment</button>
+        </li>
+      </ul>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Formulario 2</legend>
+      <label for="mail">Dirección de correo electrónico:<label> <br>
+          <input type="email" id="mail" name="mail" pattern="(?=.*[a,z,A-Z])(0-9){10}+ @[bigcorp.eu]" required> <br>
+          <button>Enviar</button>
+  </form>
+
+  </fieldset>
+  <form novalidate>
+    <fieldset>
+
+      <legend>Informacion Personal</legend>
+      <div class="double-input">
+        <div class="form-input-container">
+          <label for="fname">Nombre</label>
+          <input type="text" id="fname" placeholder="David" minlength="{5,20}" required>
+        </div>
+        <div class="form-input-container">
+          <label for="lname">Apellidos</label>
+          <input type="text" id="lname" placeholder="Seoane" pattern="" required>
+        </div>
+      </div>
+      <div class="double-input">
+        <div class="form-input-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" pattern="(?=.*[a,z,A-Z])(0-9){10}+ @[bigcorp.eu]" required>
+        </div>
+        <div class="form-input-container">
+          <label for="phone">Teléfono</label>
+          <input type="tel" id="phone" placeholder="" pattern=".{8,}" maxlength="10" required>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Cuestionario</legend>
+      <div class="double-input">
+        <div class="form-input-container">
+          <label for="fname">¿Cuantas horas estudias a la semana?</label>
+          <select id="alergia">
+            <option value="">0</option>
+            <option value="">1-5</option>
+            <option value="">5-10</option>
+            <option value="">+10</option>
+            <input type="text" id="fname" placeholder="Deja tu comentario " maxlength="200"
+              required>
+          </select>
+        </div>
+        <div class="form-input-container">
+          <label for="lname">¿Consideras que podrias tener un mejor rendimiento escolar?</label>
+          <select id="problema">
+            <option value="Warsaw">SI</option>
+            <option value="Cracow">NO</option>
+            <input type="text" id="fname" placeholder="Deja tu comentario " maxlength="200"
+              required>
+
+          </select>
+        </div>
+      </div>
+  </form>
+
+  <fieldset>
+    <h2>Pais favorito</h2>
+    <label for="Pais">Selecciona un pais:</label>
+    <select id="pais" name="paises">
+      <option value="Argentina">Argentina</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Polonia">Polonia</option>
+      <option value="Francia">Francia</option>
+    </select>
+  </fieldset>
+
+  <button type="submit">Enviar</button>
+  <script src="../examen2/script.js"></script>
+
+</main>
+<footer-component></footer-component>
+</body>
+
+</html>
