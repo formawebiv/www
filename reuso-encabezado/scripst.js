@@ -16,7 +16,8 @@ headerTemplate.innerHTML = `
           }
 
           li {
-            margin-left: 200px;
+            padding-left: 100px;
+            list-style: none;
           }
           
           a {
@@ -36,6 +37,8 @@ headerTemplate.innerHTML = `
             <ul>
               <li><a href="about.html">About</a></li>
               <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html">Recursos</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>

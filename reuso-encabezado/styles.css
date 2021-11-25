@@ -19,3 +19,12 @@
   main {
     flex: 1 0 auto;
   }
+
+  img{
+      position: relative;
+      right: -800px;
+      top: 300px;
+      
+  }
+
+  

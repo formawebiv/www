@@ -1,1 +1,1 @@
-Menu (header) y footer fijos y reutilizables con JS
+Menu (header) y footer (con RRSS) fijos y reutilizables con JS
