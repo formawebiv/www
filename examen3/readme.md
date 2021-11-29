@@ -8,7 +8,7 @@
 
 5-Añadimos una fuente al formulario.
 
-5-Por último preparamos los elementos de la pagina con CSS (los que no hayamos ajustado ya con JS) para que sea responsiva y accesible según lo necesitemos.
+6-Por último preparamos los elementos de la pagina con CSS (los que no hayamos ajustado ya con JS) para que sea responsiva y accesible según lo necesitemos.
 
 <img src="https://user-images.githubusercontent.com/89069622/143851240-316b2c73-45ea-43ec-8f4c-538b09e70bed.png>
           
