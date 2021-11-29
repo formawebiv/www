@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300&display=swap');
+body{
+  background-color: rgba(8, 43, 44, 0.781);
+}
+form {
+  max-width: 600px;
+  display: block;
+  width: 90%;
+  background-color: #e4ece428;
+  padding: 25px 0;
+  margin: 40px auto;
+  color: rgb(29, 25, 25);
+  border: 5px solid rgba(0, 0, 0, 0.774);
+  font-family: 'Bebas Neue', cursive;
+}
+  
+fieldset {
+  border: none;
+  width: 90%;
+  margin: 10px auto;
+}
+legend {
+  margin: 30px 0 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+}
+*:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+  text-align: center;
+}
+body {
+
+font-family: 'Lato';
+padding: 10px 0;
+margin: 0;
+font-size: 14px;
+overflow-x: hidden;
+min-width: 345px;
+}
+p * {
+  display: block;
+}
+input[type=email]{
+    color: white;
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+  font-family: inherit;
+  font-size: 90%;
+  box-sizing: border-box;
+}
+
+/* campos no válidos */
+input:invalid{
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(129, 202, 126, 0.192);
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/*  mensajes de error */
+.error {
+  width : 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: rgb(212, 49, 49);
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+.double-input {
+  margin: 20px auto;
+}
+.double-input > div {
+  float: left;
+  width: 48%;
+  margin: 0 1% 10px;
+} 
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+button[type="submit"] {
+  height: 50px;
+  width: 300px;
+  background-color: #2ba12b9a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size:20px;
+  line-height: 50px;
+  font-family: 'Lato';
+  box-shadow: 0 0 10px #131313;
+  display: block;
+  margin: 0 auto;
+}
+input, select {
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #a9a9a9;
+  padding: 8px;
+  height: 35px;
+}
+.date-select > select {
+  width: 47%;
+}
+.date-select > select:first-of-type {
+  margin-right: 3%;
+}
+input:focus, 
+select:focus {
+  border: 1px solid #1ccf0b;
+}
+input:valid, 
+select:valid {
+  border: 1px solid #050a06;
+}
+option {
+  color: #000;
+  background-color: #ececec;
+}

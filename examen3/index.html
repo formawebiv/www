@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../examen3/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../examen3/header.js"></script>
+    <script src="../examen3/footer.js"></script>
+</head>
+
+<body>
+  <header-component></header-component>
+  <main>
+  <form novalidate>
+    <fieldset>
+      <legend>Form</legend>
+      <ul>
+        <li>
+          <label for="uname">Nombre:</label>
+          <input type="text" name="uname" id="uname" required minlength="5" maxlength="20" pattern="">
+        </li>
+        <li>
+          <label for="email">Dirección:</label>
+          <input type="text" name="email" id="email" required minlength="3" maxlength="15">
+        </li>
+        <li>
+          <label for="phone">Número de teléfono:</label>
+          <input type="text" name="phone" id="phone" required minlength="3">
+        </li>
+        <li>
+          <label for="phone">Número de herman@s:</label>
+          <input type="text" name="phone" id="phone" required minlength="3">
+        </li>
+        <li>
+          <label for="phone">Nacionalidad:</label>
+          <input type="text" name="phone" id="phone" required minlength="3">
+        </li>
+        <li>
+          <label for="phone">Experiencia en el sector:</label>
+          <input type="text" name="phone" id="phone" required minlength="3">
+        </li>
+        <li>
+          <label for="comment">Comentarios:</label>
+          <textarea name="comment" id="comment" required minlength="3" maxlength="200">
+                </textarea>
+        </li>
+        <li>
+          <button>Enviar</button>
+        </li>
+      </ul>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Form 2</legend>
+      <label for="mail">Describe tus puntos fuertes y tus defectos:<label> <br>
+          <input type="email" id="mail" name="mail" pattern="(?=.*[a,z,A-Z])(0-9){10}+ @[bigcorp.eu]" required> <hr>
+          <button>Enviar</button>
+  </form>
+
+  <script src="../examen3/script.js"></script>
+
+</main>
+<footer-component></footer-component>
+</body>
+
+</html>
